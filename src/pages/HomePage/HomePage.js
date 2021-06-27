@@ -1,5 +1,6 @@
 import HomeVideo from '../../assets/videos/Particle Fairy Dust.mp4';
 import BriefOfMe from './components/BriefOfMe';
+import FreelanceWebsites from './components/FreelanceWebsites';
 import './styles/HomePageStyle.css';
 const HomePage = () => {
     return (
@@ -10,6 +11,7 @@ const HomePage = () => {
                 </video>
             </div>
             <BriefOfMe/>
+            <FreelanceWebsites/>
         </div>
     );
 }
