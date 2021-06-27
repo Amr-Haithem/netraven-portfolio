@@ -1,0 +1,59 @@
+
+#HomeVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+.BriefOfMe{
+    position: relative;
+    top: 650px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom right, rgb(59, 8, 75) , rgb(58, 23, 139));
+    vertical-align:middle;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family:JosefinSans-reg ;
+    font-size: 30px;
+}
+
+
+
+.BriefOfMe p{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:40%;
+    height:50%;
+    padding: 35px;
+    padding-top: 0px;
+    line-height: 50px;
+}
+.BriefOfMe .buttonAndImageCont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+
+}
+
+.BriefOfMe .imgContainer{
+    width:470px;
+    height:300px;
+
+}
+
+.BriefOfMe .imgContainer img{
+    width:90%;
+    height:100%;
+    border-radius: 50px;
+}
