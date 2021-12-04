@@ -1,0 +1,47 @@
+.webDevelopmentSectionMain {
+    width: 100%;
+    height: fit-content;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    font-family: JosefinSans-reg;
+    line-height: 40px;
+
+}
+
+.leftSideWeb {
+    width: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(161, 12, 97);
+    height: 580px;
+    font-size: xx-large;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.leftSideWeb p {
+    width: 80%;
+}
+
+.rightSideWeb {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 580px;
+    background-color: brown;
+    overflow: hidden;
+    background: url('../../../assets/images/laptop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightSideWeb img {
+    min-width: 100%;
+}

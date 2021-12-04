@@ -1,0 +1,33 @@
+.ProjectsPage{
+    background-color: rgb(109, 72, 104);
+    min-height: 100%;
+    width: 100%;
+    z-index: -1;
+    font-family: JosefinSans-reg ;
+}
+.TitleArea{
+    background-color: rgb(51, 7, 45);
+    font-size: 55px;
+    color: white;
+    width:100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.TitleArea h4{
+    position: relative;
+    top: 7rem;
+}
+
+.projectsArea{
+    padding: 60px;
+    min-height: 400px;
+}
+.projectsAreaDown{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,76 @@
+
+.BriefOfMe{
+    width: 100%;
+    /*temporal margin*/
+    margin-top: 100px;
+    min-height: 474px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom right, rgb(66, 14, 36) , rgb(58, 23, 139));
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-family:JosefinSans-reg ;
+    font-size: 30px;
+}
+
+.upperPart{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+
+
+
+
+.BriefOfMe .upperPart p{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:40%;
+    height:fit-content;
+    padding: 35px;
+    line-height: 50px;
+}
+.BriefOfMe .upperPart .imgContainer{
+    width:470px;
+    height:300px;
+
+}
+
+.BriefOfMe  .upperPart .imgContainer img{
+    width:90%;
+    height:100%;
+    border-radius: 50px;
+}
+
+.buttonHolder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.lowerPart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    min-height: 50px;
+}
+
+.lowerPart button{
+    height: 35px;
+    width: 200px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(206, 2, 138);
+}

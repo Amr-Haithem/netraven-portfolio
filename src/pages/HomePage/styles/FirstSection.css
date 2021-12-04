@@ -1,0 +1,69 @@
+.FirstSection{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 120px;
+    margin-top: 120px;
+
+
+
+}
+.solidColor{
+    width: 70%;
+    min-height: 400px;
+    height: fit-content;
+    background-color: rgb(109, 9, 109);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:JosefinSans-reg ;
+    font-size: 35px;
+    line-height: 50px;
+    color: white;
+
+
+}
+.myNameAndIntro{
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items:center;
+}
+.imgHolder{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(80, 21, 136);
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#personalImage{
+    width: 240px;
+    height: 280px;
+    border-radius: 50px;
+    box-shadow: 0px  0px 5px;
+    border: solid rgb(36, 12, 73);
+    border-width: 2px;
+}
+.contactMeButton{
+    color: white;
+
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(206, 2, 138);
+
+}
