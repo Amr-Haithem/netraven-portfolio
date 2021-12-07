@@ -10,6 +10,7 @@ import WebDevelopmentSection from './components/web_development_section';
 import MobileDevelopementSection from './components/mobile_development_section';
 import CertificateSection from './components/certificate_section';
 import InfoSection from './components/info_section';
+import FootNail from './components/footnail';
 const HomePage = () => {
     return (
         <div className="HomePage">
@@ -23,6 +24,8 @@ const HomePage = () => {
             <MobileDevelopementSection/>
             <CertificateSection/>
             <InfoSection/>
+            <FootNail/>
+
         </div>
     );
 }

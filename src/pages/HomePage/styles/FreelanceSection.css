@@ -2,6 +2,7 @@
 /*styling freelancing section*/
 
 .FreelanceWebsitesDiv{
+    margin-top: 50px;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -10,8 +11,8 @@
     flex-direction: row;
     justify-content:space-evenly;
     font-family:JosefinSans-reg ;
-    background-image: linear-gradient(to bottom right,  rgb(56, 14, 66) , rgb(58, 23, 139));
-    height: f;
+    /*background-image: linear-gradient(to bottom right,  rgb(56, 14, 66) , rgb(58, 23, 139));*/
+    height: fit-content;
 }
 .FreelanceWebsitesDiv .leftFreelanceArea{
     
@@ -64,7 +65,7 @@
       font-family:JosefinSans-reg;
       color: white;
       background-color: rgb(11, 89, 179);
-      border-radius: 8px;
+      border-radius: 5px;
       border: none;
       cursor: pointer;
   }

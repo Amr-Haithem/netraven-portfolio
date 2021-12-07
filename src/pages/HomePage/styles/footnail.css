@@ -1,0 +1,17 @@
+.FootNailMain {
+    width: 100%;
+    height: fit-content;
+    min-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(109, 9, 109);
+    color: white;
+}
+
+.FootNailMain p {
+    text-align: center;
+    font-family: JosefinSans-reg;
+    font-size: medium;
+}

@@ -6,8 +6,16 @@
     z-index: 1;
     position: absolute;
     top: 0px;
-    left: 50%;
-    transform: translate(-50%);
+    /*left: 50%;
+    transform: translate(-50%);*/
+    background-color: rgb(109, 9, 109);
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    align-items: center;
+    padding: 1px;
+    padding-bottom: 6px;
+
     
     
 }
