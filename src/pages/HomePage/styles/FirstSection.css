@@ -13,16 +13,17 @@
     width: 70%;
     min-height: 400px;
     height: fit-content;
-    background-color: rgb(109, 9, 109);
+    background-color: rgb(53, 133, 139);
     border-radius: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    font-family:JosefinSans-reg ;
     font-size: 35px;
     line-height: 50px;
     color: white;
+    box-shadow: 1px 1px 8px white ;
+
 
 
 }
@@ -51,7 +52,7 @@
     height: 280px;
     border-radius: 50px;
     box-shadow: 0px  0px 5px;
-    border: solid rgb(36, 12, 73);
+    border: solid rgb(255, 255, 255) .5;
     border-width: 2px;
 }
 .contactMeButton{
@@ -63,6 +64,11 @@
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    background-color: rgb(206, 2, 138);
+    background-color: rgb(7, 34, 39);
+
+}
+.contactMeButton:hover{
+    box-shadow: 0px 0px 8px;
+    animation: buttonsAnimations1 1s;
 
 }

@@ -1,32 +1,32 @@
-.NavBar{
+.NavBar {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     position: relative;
     z-index: 1;
     position: absolute;
     top: 0px;
-    /*left: 50%;
-    transform: translate(-50%);*/
-    background-color: rgb(109, 9, 109);
+    background-color: rgb(7, 34, 39);
     width: 100%;
     height: fit-content;
     position: fixed;
     align-items: center;
     padding: 1px;
     padding-bottom: 6px;
+    
 
-    
-    
+
+
 }
-.NavBar a{
+
+.NavBar a {
     text-decoration: none;
-    color: white;
-    font-family:JosefinSans-reg ;
+    color: rgb(255, 255, 255);
+    font-family: JosefinSans-reg;
     font-size: larger;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 10px;
-    
-    
+
+
 }

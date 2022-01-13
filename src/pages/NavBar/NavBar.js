@@ -8,7 +8,7 @@ const NavBar = () => {
         <nav className="NavBar">
             <Link exact to="/" activeStyle>Home</Link>
             <Link to="/ProjectsPage">Projects</Link>
-            <Link to="#">Contact me</Link>
+            <Link to="/ContactMe">Contact me</Link>
         </nav>
     );
 }

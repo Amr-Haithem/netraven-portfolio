@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeVideo from '../../assets/videos/Particle Fairy Dust.mp4';
+import HomeVideo from '../../assets/videos/Intro.mp4';
 import BriefOfMe from './components/BriefOfMe';
 import FreelanceWebsites from './components/FreelanceWebsites';
 import './styles/HomePageStyle.css';

@@ -64,10 +64,18 @@
       height: 30px;
       font-family:JosefinSans-reg;
       color: white;
-      background-color: rgb(11, 89, 179);
+      
+      background-color: #072227;
       border-radius: 5px;
       border: none;
       cursor: pointer;
+  }
+  .FreelancingAnchorTags:hover{
+      
+    box-shadow: 0px 0px 8px;
+    animation: buttonsAnimations1 1s;
+
+
   }
   .buttonCont{
       margin-top: 30px;

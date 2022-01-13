@@ -7,11 +7,11 @@
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(to bottom right, rgb(66, 14, 36) , rgb(58, 23, 139));
+    /* background-image: linear-gradient(to bottom right, rgb(66, 14, 36) , rgb(58, 23, 139)); */
+    background-color: rgb(7, 34, 39);
     padding-top: 50px;
     padding-bottom: 50px;
     color: white;
-    font-family:JosefinSans-reg ;
     font-size: 30px;
 }
 

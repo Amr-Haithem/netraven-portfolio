@@ -2,7 +2,6 @@
         width: 100%;
         height: fit-content;
         min-height: 100px;
-        font-family: JosefinSans-reg ;
         display: flex;
         flex-wrap: wrap;
         line-height: 40px;
@@ -12,7 +11,7 @@
     .leftSideMobile {
         width: 50%;
         color: rgb(255, 255, 255);
-        background-color: rgb(255, 30, 68);
+        background-color: #294057;
         height: 580px;
         font-size: xx-large;
         font-weight: 300;
@@ -34,7 +33,7 @@
         display: flex;
         flex-wrap: wrap;
         height: 580px;
-        background-color: brown;
+        background-color: #191919;
         overflow: hidden;
         background: url('../../../assets/images/mobile.jpg');
         background-repeat: no-repeat;

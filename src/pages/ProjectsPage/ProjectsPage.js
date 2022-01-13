@@ -1,10 +1,11 @@
 import React from 'react';
+import FootNail from '../HomePage/components/footnail.js';
 import SingleProject from './components/singleProject.js';
 import './styles/allPageStyle.css';
 
 
 const ProjectsPage = () => {
-    return ( 
+    return (
         <div className="ProjectsPage">
             <div className="TitleArea">
                 <h4>
@@ -17,22 +18,23 @@ const ProjectsPage = () => {
 
                 </div>
                 <div className="projectsAreaDown">
-                <SingleProject/>
-                <SingleProject/>
-                <SingleProject/>
-                <SingleProject/>
-                <SingleProject/>
-                <SingleProject/>
-                <SingleProject/>
-                <SingleProject/>
+                    <SingleProject />
+                    <SingleProject />
+                    <SingleProject />
+                    <SingleProject />
+                    <SingleProject />
+                    <SingleProject />
+                    <SingleProject />
+                    <SingleProject />
                 </div>
             </div>
             <div className="contactMeArea">
 
             </div>
 
+            <FootNail />
         </div>
-     );
+    );
 }
- 
+
 export default ProjectsPage;

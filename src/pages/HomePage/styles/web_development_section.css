@@ -13,7 +13,8 @@
 .leftSideWeb {
     width: 50%;
     color: rgb(255, 255, 255);
-    background-color: rgb(161, 12, 97);
+    color: black;
+    background-color: rgb(174, 254, 255);
     height: 580px;
     font-size: xx-large;
     font-weight: 300;
@@ -35,7 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 580px;
-    background-color: brown;
+    background-color: rgb(174, 254, 255);
     overflow: hidden;
     background: url('../../../assets/images/laptop.jpg');
     background-repeat: no-repeat;
