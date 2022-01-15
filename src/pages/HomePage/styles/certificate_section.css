@@ -44,3 +44,14 @@
 .rightSideCertificate img {
     min-width: 100%;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .rightSideCertificate {
+        width: 100%;
+    }
+    .leftSideCertificate{
+        width: 100%;
+
+    }
+  }

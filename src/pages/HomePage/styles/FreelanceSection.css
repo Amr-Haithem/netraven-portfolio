@@ -32,13 +32,12 @@
     flex-wrap: wrap;
     justify-content:center;
     margin-bottom: 30px;
-    padding-left:250px ;
-    padding-right: 250px;
+    
 
 }
 .oneIconCont{
-    margin-left: 30px;
-    margin-right: 30px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
     height: fit-content;
     width: fit-content;
 
@@ -47,6 +46,8 @@
 .FreeLancingIcons .icon{
     font-size: 50px;
     cursor: pointer;
+    margin-left: 30px;
+    margin-left: 30px;
 
 }
 

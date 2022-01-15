@@ -12,7 +12,7 @@
         width: 50%;
         color: rgb(255, 255, 255);
         background-color: #294057;
-        height: 580px;
+        min-height: 580px;
         font-size: xx-large;
         font-weight: 300;
         display: flex;
@@ -32,7 +32,7 @@
         width: 50%;
         display: flex;
         flex-wrap: wrap;
-        height: 580px;
+        min-height: 580px;
         background-color: #191919;
         overflow: hidden;
         background: url('../../../assets/images/mobile.jpg');
@@ -43,3 +43,24 @@
     .rightSideMobile img {
         min-width: 100%;
     }
+
+
+    @media screen and (max-width: 1000px) {
+        .mobileDevelopmentSectionMain {
+            width: 100%;
+            height: fit-content;
+            min-height: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:column-reverse;
+            line-height: 40px;
+         
+         }
+        .leftSideMobile {
+            width: 100%;
+        }
+        .rightSideMobile{
+            width: 100%;
+
+        }
+      }

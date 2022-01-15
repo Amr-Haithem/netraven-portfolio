@@ -46,3 +46,16 @@
 .rightSideWeb img {
     min-width: 100%;
 }
+
+
+
+@media screen and (max-width: 1000px) {
+    
+    .rightSideWeb {
+        width: 100%;
+    }
+    .leftSideWeb{
+        width: 100%;
+
+    }
+  }

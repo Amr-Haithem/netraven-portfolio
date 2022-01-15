@@ -7,7 +7,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px;
     font-family: JosefinSans-reg ;
     
     background-image: linear-gradient(to bottom ,rgb(7, 34, 39),rgb(53, 133, 139) );
@@ -40,7 +39,6 @@
     justify-content: space-evenly;
     width: 90%;
     height: fit-content;
-    padding: 30px;
 
 
 }
@@ -53,7 +51,8 @@
     box-sizing: border-box;
     height: fit-content;
     min-height: 500px;
-    width: 28%;
+    margin-top: 30px;
+    width:300px;
     /* background-image: linear-gradient(to bottom ,rgb(3, 185, 179),rgb(20, 161, 157) ); */
     background-color:rgb(3, 185, 179) ;
     line-height:25px;
