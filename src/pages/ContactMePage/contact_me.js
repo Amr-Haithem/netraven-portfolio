@@ -66,24 +66,23 @@ const ContactMe = () => {
                         <div className="sendButtonHolder">
                             <button >send</button>
                         </div>
-
                     </div>
                 <div className="rgtPart iconSection">
                     <div className="iconsHolder">
                         <div className="firstRowIcons">
                             <div className="iconHolder">
-                                <FaLinkedin className="iconInContact" />
+                             <a href="https://www.linkedin.com/in/amr-haithem-95a163226/" rel="noopener noreferrer" target="_blank"> <FaLinkedin  className="iconInContact" /></a>  
                             </div>
                             <div className="iconHolder">
-                                <FaInstagram className="iconInContact" />
+                             <a href="https://www.instagram.com/the_netraven/" rel="noopener noreferrer" target="_blank">  <FaInstagram className="iconInContact" /></a> 
                             </div>
                         </div>
                         <div className="secondRowIcons">
                             <div className="iconHolder">
-                                <FaTwitter className="iconInContact" />
+                             <a href="https://twitter.com/amr_haithem" rel="noopener noreferrer" target="_blank">   <FaTwitter className="iconInContact" /></a>
                             </div>
                             <div className="iconHolder">
-                                <FaGithub className="iconInContact" />
+                            <a href="https://github.com/Amr-Haithem" rel="noopener noreferrer" target="_blank">    <FaGithub className="iconInContact" /></a>
                             </div>
                         </div>
 

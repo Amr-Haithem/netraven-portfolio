@@ -6,7 +6,9 @@
 
 }
 body{
+    position: absolute;
     overflow-x: hidden;
+    width: 100%;
 }
 
 @keyframes buttonsAnimations1 {

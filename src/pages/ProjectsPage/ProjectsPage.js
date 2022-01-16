@@ -19,7 +19,7 @@ const [projects, setprojects] = useState([]);
             console.log("hlo");
             setprojects(snapshot.docs.map((doc)=> 
         
-                { return new Project(doc.data().title,doc.data().description,doc.data().githubLink,doc.data().youtubeLink);}           
+                { return new Project(doc.data().title,doc.data().description,doc.data().githubLink,doc.data().youtubeLink,doc.data().photoName);}           
             ));
         });
     });

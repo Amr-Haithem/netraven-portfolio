@@ -1,10 +1,11 @@
 export class Project{
     
-    constructor(title, description,githubLink,youtubeLink) {
+    constructor(title, description,githubLink,youtubeLink,photoName) {
         this.title = title;
         this.description = description;
         this.githubLink=githubLink;
         this.youtubeLink=youtubeLink;
+        this.photoName=photoName;
       }
 
       getTitle(){
@@ -18,6 +19,9 @@ export class Project{
       }
       getYoutubeLink(){
           return this.youtubeLink;
+      }
+      getPhotoName(){
+          return this.photoName;
       }
 
 

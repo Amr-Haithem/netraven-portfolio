@@ -13,7 +13,7 @@ const FreelanceWebsites = () => {
                 <div className="Upwork leftFreelanceArea">
                     <p>Upwork Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
                     <div className="buttonCont">
-                    <a><button className="FreelancingAnchorTags">
+                    <a href="https://www.upwork.com/freelancers/~013b319eb401dbda63" rel="noopener noreferrer" target="_blank"><button className="FreelancingAnchorTags">
                             go to Upwork
                         </button></a>
                     </div>
@@ -25,7 +25,7 @@ const FreelanceWebsites = () => {
                 <div className="Toptal leftFreelanceArea">
                     <p>Toptal Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
                     <div className="buttonCont">
-                    <a><button className="FreelancingAnchorTags">
+                    <a href="https://www.toptal.com/" rel="noopener noreferrer" target="_blank"><button className="FreelancingAnchorTags">
                         go to Toptal
                         </button></a>
                     </div>
@@ -37,7 +37,7 @@ const FreelanceWebsites = () => {
                 <div className="FreeLancer leftFreelanceArea">
                     <p>FreeLancer Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
                     <div className="buttonCont">
-                    <a><button className="FreelancingAnchorTags">
+                    <a href="https://www.freelancer.com/u/amrshamso" rel="noopener noreferrer" target="_blank"><button className="FreelancingAnchorTags">
                             go to FreeLancer
                         </button></a>
                     </div>
@@ -49,7 +49,7 @@ const FreelanceWebsites = () => {
                 <div className="GitHub leftFreelanceArea">
                     <p>GitHub Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing</p>
                     <div className="buttonCont">
-                    <a><button className="FreelancingAnchorTags">
+                    <a href="https://www.fiverr.com/amrshamso?up_rollout=true" rel="noopener noreferrer" target="_blank" ><button className="FreelancingAnchorTags">
                             go to fiverr
                         </button></a>
                     </div>
