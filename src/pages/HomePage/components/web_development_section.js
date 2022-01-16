@@ -18,10 +18,9 @@ useEffect(() => {
     if (inView) {
         rgtAnimation.start(
             {
-                
-                display:"flex",
+               
                 x: 0,
-                transition:{
+                transition: {
 
                     duration: .6
 
@@ -30,9 +29,8 @@ useEffect(() => {
         )
         lftAnimation.start(
             {
-                display:"flex",
-                y: 0,
-                transition:{
+                x: 0,
+                transition: {
 
                     duration: .6
 
@@ -45,15 +43,15 @@ useEffect(() => {
         rgtAnimation.start(
             {
                 
-                
-                display:"none",
-                x: "100vw"
+
+                x: "-100vw"
             }
         )
         lftAnimation.start(
             {
-                display:"none",
-                y: "100vw"
+                
+
+                x: "100vw"
             }
         )
     }
@@ -62,7 +60,7 @@ useEffect(() => {
     return (
         <div 
         ref={ref} className="webDevelopmentSectionMain">
-            <motion.div animate={lftAnimation} className="leftSideWeb">
+            <motion.div animate={rgtAnimation} className="leftSideWeb">
                 <p>
                     Request your website, indulge in the online world, and face users with creative websites done using HTML, CSS, JAVASCRIPT, REACT.
                 </p>
@@ -70,7 +68,7 @@ useEffect(() => {
             </motion.div>
             <motion.div
                 className="rightSideWeb"
-                animate={rgtAnimation}
+                animate={lftAnimation}
                 >
 
             </motion.div>

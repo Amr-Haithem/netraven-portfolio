@@ -14,10 +14,8 @@ const CertificateSection = () => {
         if (inView) {
             rgtAnimation.start(
                 {
-                    display: "flex",
-
-                    y: 0,
-
+                   
+                    x: 0,
                     transition: {
 
                         duration: .6
@@ -27,7 +25,6 @@ const CertificateSection = () => {
             )
             lftAnimation.start(
                 {
-
                     x: 0,
                     transition: {
 
@@ -41,14 +38,16 @@ const CertificateSection = () => {
         else {
             rgtAnimation.start(
                 {
-                    display: "none",
-                    y: "100vw",
+                    
+
+                    x: "-100vw"
                 }
             )
             lftAnimation.start(
                 {
+                    
 
-                    x: "-100vw"
+                    x: "100vw"
                 }
             )
         }
@@ -56,16 +55,15 @@ const CertificateSection = () => {
 
     return (
         <div ref={ref} className="CertificateSectionMain">
-            <motion.div animate={
-                lftAnimation
-            } className="leftSideCertificate">
+            <motion.div animate={rgtAnimation}
+            className="leftSideCertificate">
                 <p>
                     Certified from the world-wide known Udacity organization, which has 1.6 million users from around the world.
                 </p>
 
             </motion.div>
             <motion.div
-                animate={rgtAnimation}
+                animate={lftAnimation}
                 className="rightSideCertificate">
 
             </motion.div>

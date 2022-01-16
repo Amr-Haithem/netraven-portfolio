@@ -21,25 +21,20 @@ const InfoSection = () => {
             firstAnimation.start(
                 {
                     display: "flex",
-
                     y: 0,
-
                     transition: {
-                        delay:.2,
+                        delay:0,
 
                         duration: .6
-
                     }
                 }
             )
             secondAnimation.start(
                 {
-
                     y: 0,
                     transition: {
-                        delay:.4,
+                        delay:.2,
                         duration: .6
-
                     }
                 }
             )
@@ -47,10 +42,7 @@ const InfoSection = () => {
                 {
                     y: 0,
                     transition: {
-                        
-                    delay:.6,
-
-
+                    delay:.4,
                         duration: .6
 
                     }

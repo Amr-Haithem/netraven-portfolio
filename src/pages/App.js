@@ -4,8 +4,10 @@ import ContactMe from './ContactMePage/contact_me';
 import HomePage from './HomePage/HomePage';
 import NavBar from './NavBar/NavBar';
 import ProjectsPage from './ProjectsPage/ProjectsPage';
-
 function App() {
+  
+
+
   return (
 <Router>
       <div className="App">
